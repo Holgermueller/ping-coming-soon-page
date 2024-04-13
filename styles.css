@@ -3,12 +3,97 @@ html {
   padding: 0;
   margin: 0;
   font-family: "Libre Franklin", sans-serif;
+  text-align: center;
+}
+
+.logo {
+  margin: 15% auto 10%;
+  height: 1.25rem;
+}
+
+h1,
+p {
+  font-weight: 300;
+}
+
+h1 {
+  color: hsl(0, 0%, 59%);
+  font-size: 1.5rem;
+}
+
+h1 span,
+p {
+  color: hsl(209, 33%, 12%);
+}
+
+p {
+  font-size: 0.75rem;
+}
+
+h1 span {
+  font-weight: 600;
+}
+
+form {
+  margin: 5% auto 15%;
+}
+
+input[type="email"],
+button {
+  border-radius: 36px;
+  width: 85%;
+  padding: 16px;
+  border: 1px solid hsl(223, 87%, 63%);
+}
+
+::placeholder {
+  color: hsl(223, 100%, 88%);
+}
+
+input[type="email"] {
+  margin-bottom: 5%;
+}
+
+button {
+  background-color: hsl(223, 87%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.demo-image {
+  width: 90%;
+  margin: auto;
+}
+
+/* Footer styles */
+footer {
+  margin-top: 25%;
+}
+
+.social-icons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: auto;
+}
+
+.social-icons-container a {
+  border: 1px solid hsl(0, 0%, 59%);
+  border-radius: 36px;
+  padding: 8px 12px;
+}
+
+.social-icons-container a i {
+  color: hsl(223, 87%, 63%);
+}
+
+.footer-copy {
+  color: hsl(0, 0%, 59%);
 }
 
 .attribution {
   font-size: 11px;
-  text-align: center;
 }
 .attribution a {
+  border: none;
   color: hsl(228, 45%, 44%);
 }
