@@ -60,7 +60,7 @@ button {
 }
 
 .demo-image {
-  width: 90%;
+  width: 60%;
   margin: auto;
 }
 
@@ -101,7 +101,7 @@ footer {
 @media screen and (min-width: 600px) {
   .logo {
     height: 2rem;
-    margin-top: 5%;
+    margin: 5% auto;
   }
 
   h1 {
@@ -116,7 +116,7 @@ footer {
     display: grid;
     grid-template-columns: auto auto;
     gap: 0.5rem;
-    width: 70%;
+    width: 60%;
     margin-bottom: 5%;
   }
 
